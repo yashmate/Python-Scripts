@@ -1,0 +1,33 @@
+item {
+    id: 1
+    name: 'articulated_truck_front'
+}
+item {
+    id: 2
+    name: 'articulated_truck_rear'
+}
+item {
+    id: 3
+    name: 'single_unit_truck_front'
+}
+item {
+    id: 4
+    name: 'single_unit_truck_rear'
+}
+item {
+    id: 5
+    name: 'van_front'
+}
+item {
+    id: 6
+    name: 'van_rear'
+}
+item {
+    id: 7
+    name: 'pickup_front'
+}
+item {
+    id: 8
+    name: 'pickup_rear '
+}
+
