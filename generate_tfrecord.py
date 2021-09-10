@@ -26,8 +26,22 @@ FLAGS = flags.FLAGS
 
 
 def class_text_to_int(row_label):
-    if row_label == 'truck':
+    if row_label == 'articulated_truck_front':
         return 1
+    elif row_label == "articulated_truck_rear":
+        return 2
+    elif row_label == "single_unit_truck_front":
+        return 3
+    elif row_label == "single_unit_truck_rear":
+        return 4
+    elif row_label == "van_front":
+        return 5
+    elif row_label == "van_rear":
+        return 6
+    elif row_label == "pickup_front":
+        return 7
+    elif row_label == "pickup_rear":
+        return 8
     else:
         return None
 
